@@ -29,17 +29,23 @@ This project is a Flask-based web application that reads temperature and humidit
    cd <project-folder>
    ```
 2. **Connect the Hardware**
+   ![image](https://github.com/user-attachments/assets/7b24970d-575b-4c49-9a2a-db26cdaef1e7)
+   ![image](https://github.com/user-attachments/assets/af64defa-7110-46aa-91b9-ff6dbd7d5e65)
+   ![image](https://github.com/user-attachments/assets/9173d102-00c3-4a83-90bc-ebaa524f9d68)
+   ![image](https://github.com/user-attachments/assets/4d3620de-d0e0-4358-bf19-21a013db689b)
+
+
    - Attach the DHT sensor to pin 2 of the Arduino.
    - Connect the Arduino to your computer.
-3. **Upload the Arduino Code**
+4. **Upload the Arduino Code**
    - Open the Arduino IDE.
    - Copy and paste the provided Arduino code.
    - Upload it to your Arduino board.
-4. **Run the Flask Application**
+5. **Run the Flask Application**
    ```sh
    python app.py
    ```
-5. **Access the Web Interface**
+6. **Access the Web Interface**
    - Open a browser and go to `http://127.0.0.1:5000/`
 
 ## Project Structure
