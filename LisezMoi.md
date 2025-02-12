@@ -40,7 +40,10 @@ cd <project-folder>
 
 🧬 Composants matériels :
 
-🎨 (insérer image du matériel ici)
+![image](https://github.com/user-attachments/assets/4e4644cd-f54f-4cdf-bfbc-b3ad65ed3997)
+![image](https://github.com/user-attachments/assets/63ddf8bb-459a-474a-ad58-119474cbfb46)
+![image](https://github.com/user-attachments/assets/ba525d24-df78-43e0-bc88-ae2363aade87)
+![image](https://github.com/user-attachments/assets/a121d81b-3920-4067-a890-4216871bf028)
 
 🔗 Connecter le capteur DHT à la broche 2 de l’Arduino.
 
