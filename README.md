@@ -29,8 +29,9 @@ This project is a Flask-based web application that reads temperature and humidit
    cd <project-folder>
    ```
    
-2. **Connect the Hardware**
-Hardware components:
+2. **Connect the Hardware**      
+
+   Hardware components:
 
    ![image](https://github.com/user-attachments/assets/7b24970d-575b-4c49-9a2a-db26cdaef1e7)
    ![image](https://github.com/user-attachments/assets/af64defa-7110-46aa-91b9-ff6dbd7d5e65)
