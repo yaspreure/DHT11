@@ -1,10 +1,10 @@
-🌡️📊 Système de Monitoring de Température et d’Humidité Basé sur Flask
+# 🌡️📊 Système de Monitoring de Température et d’Humidité Basé sur Flask
 
-📝 Présentation
+## 📝 Présentation
 
 Ce projet est une application web basée sur Flask qui lit les données de température et d'humidité à partir d'un capteur DHT connecté à un Arduino. Les données sont collectées via une communication série et affichées sur une interface web.
 
-⚙️ Fonctionnalités
+## ⚙️ Fonctionnalités
 
 👉 Lecture des données de température et d'humidité via un capteur DHT.
 👉 Affichage des relevés en temps réel sur une interface web.
@@ -12,27 +12,29 @@ Ce projet est une application web basée sur Flask qui lit les données de temp�
 👉 Collecte asynchrone des données grâce au threading.
 👉 Communication avec le capteur via un port série (COM3, 9600 bauds).
 
-🧭 Technologies utilisées
+## 🧭 Technologies utilisées
 
 🖥️ Python (Flask, Flask-Bootstrap) pour l’application web.
 🔌 Arduino C++ pour l’acquisition des données du capteur.
 🌡️ Capteur DHT pour les relevés de température et d’humidité.
 🔄 Communication série pour le transfert des données.
 
-🚀 Installation et Configuration
+## 🚀 Installation et Configuration
 
-📌 Prérequis
+### 📌 Prérequis
 
 💡 Python 3 installé
-💡 Flask installé (pip install flask flask-bootstrap)
+💡 Flask installé (`pip install flask flask-bootstrap`)
 💡 Arduino avec un capteur DHT
 
-📂 Étapes
+### 📂 Étapes
 
 🔢 Cloner le dépôt
 
+```sh
 git clone <repository-url>
 cd <project-folder>
+```
 
 🔢 Connecter le matériel
 
@@ -54,22 +56,26 @@ cd <project-folder>
 
 🔢 Lancer l’application Flask
 
+```sh
 python app.py
+```
 
 🔢 Accéder à l’interface web
 
-🌐 Ouvrir un navigateur et aller sur 👉 http://127.0.0.1:5000/
+🌐 Ouvrir un navigateur et aller sur 👉 [http://127.0.0.1:5000/](http://127.0.0.1:5000/)
 
-🗁 Structure du projet
+## 🗁 Structure du projet
 
+```
 ├── app.py            # 🖥️ Application Flask  
 ├── templates/  
 │   ├── index.html    # 🎨 Template de l’interface web  
 ├── static/  
 │   ├── styles.css    # 🎨 Feuille de styles CSS (si nécessaire)  
 └── arduino_code.ino  # 🔌 Script Arduino pour le capteur  
+```
 
-🤦‍💻 Explication du code Arduino
+## 🤦‍💻 Explication du code Arduino
 
 📌 Utilisation de la bibliothèque DHT.h pour la lecture des données du capteur.
 
@@ -77,7 +83,7 @@ python app.py
 
 🕒 Temps d’échantillonnage fixé à 3 minutes.
 
-💻 Explication de l’application Flask
+## 💻 Explication de l’application Flask
 
 🔄 Démarrage d’un thread en arrière-plan pour collecter les données en continu.
 
@@ -85,13 +91,19 @@ python app.py
 
 📊 Affichage des relevés en direct sur l’interface web.
 
-💡 Améliorations futures
+## 💡 Améliorations futures
 
 📂 Stocker les données historiques dans une base de données.
 
 📊 Ajouter des graphiques pour la visualisation des données.
 
 ☁️ Déployer l’application sur un serveur cloud.
+
+## 📚 Licence
+
+🔓 Ce projet est open-source. Vous êtes libre de l'utiliser et de le modifier !
+
+
 
 📚 Licence
 
